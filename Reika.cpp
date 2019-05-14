@@ -15,7 +15,9 @@ long Reika_Strength;
 long Reika_Agility;
 long Reika_Intelligence;
 long Reika_Vitality;
+long Reika_Max_HP;
 long Reika_HP;
+long Reika_Max_MP;
 long Reika_MP;
 long Reika_Concentration;
 long Reika_Boost;
@@ -53,7 +55,15 @@ void SetReikaVitality(){
     
 }
 
+void SetReikaMaxHP(){
+    
+}
+
 void SetReikaHP(){
+    
+}
+
+void SetReikaMaxMP(){
     
 }
 
@@ -84,6 +94,7 @@ void SetReikaPerception(){
 void SetReikaFireDefense(){
     
 }
+
 void SetReikaWaterDefense(){
     
 }

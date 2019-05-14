@@ -3,8 +3,8 @@
 #include <fstream>
 #include <cstdlib>
 #include <math.h>
-#include "Class1.cpp"
-#include "Class2.cpp"
+#include "Reika.cpp"
+#include "Terumi.cpp"
 
 using namespace std;
 
