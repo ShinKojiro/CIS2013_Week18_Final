@@ -39,7 +39,105 @@ long Reika_Movement_Speed;
 
 public:
 
-void SetReikaStrength(){
+void SetReikaStrength(long str){
+    Reika_Strength = str;
+}
+
+void SetReikaAgility(long agi){
+    Reika_Agility = agi;
+}
+
+void SetReikaIntelligence(long intel){
+    Reika_Intelligence = intel;
+}
+
+void SetReikaVitality(long vit){
+    Reika_Vitality = vit;
+}
+
+void SetReikaMaxHP(long mhp){
+    Reika_Max_HP = mhp;
+}
+
+void SetReikaHP(long hp){
+    Reika_HP = hp;
+}
+
+void SetReikaMaxMP(long mmp){
+    Reika_Max_MP = mmp;
+}
+
+void SetReikaMP(long mp){
+    Reika_MP = mp;
+}
+
+void SetReikaConcentration(long concen){
+    Reika_Concentration = concen;
+}
+
+void SetReikaBoost(long boost){
+    Reika_Boost = boost;
+}
+
+void SetReikaStamina(long sta){
+    Reika_Stamina = sta;
+}
+
+void SetReikaDefense(long def){
+    Reika_Defense = def;
+}
+
+void SetReikaPerception(long per){
+    Reika_Perception = per;
+}
+
+void SetReikaFireDefense(long fdef){
+    Reika_Fire_Defense = fdef;
+}
+
+void SetReikaWaterDefense(){
+    
+}
+
+void SetReikaIceDefense(){
+    
+}
+
+void SetReikaWindDefense(){
+    
+}
+
+void SetReikaEarthDefense(){
+    
+}
+
+void SetReikaLightningDefense(){
+    
+}
+
+void SetReikaLightDefense(){
+    
+}
+
+void SetReikaDarkDefense(){
+    
+}
+
+void SetReikaAttackSpeed(){
+    
+}
+
+void SetReikaCastSpeed(){
+    
+}
+
+void SetReikaMovementSpeed(){
+    
+}
+
+// Getters
+
+long GetReikaStrength(){
 
 }
 
