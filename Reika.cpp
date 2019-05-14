@@ -91,48 +91,48 @@ void SetReikaPerception(long per){
     Reika_Perception = per;
 }
 
-void SetReikaFireDefense(long fdef){
-    Reika_Fire_Defense = fdef;
+void SetReikaFireDefense(long fDef){
+    Reika_Fire_Defense = fDef;
 }
 
-void SetReikaWaterDefense(){
-    
+void SetReikaWaterDefense(long watDef){
+    Reika_Water_Defense = watDef;
 }
 
-void SetReikaIceDefense(){
-    
+void SetReikaIceDefense(long iDef){
+    Reika_Ice_Defense = iDef;
 }
 
-void SetReikaWindDefense(){
-    
+void SetReikaWindDefense(long windDef){
+    Reika_Wind_Defense = windDef;
 }
 
-void SetReikaEarthDefense(){
-    
+void SetReikaEarthDefense(long eDef){
+    Reika_Earth_Defense = eDef;
 }
 
-void SetReikaLightningDefense(){
-    
+void SetReikaLightningDefense(long ltngDef){
+    Reika_Lightning_Defense = ltngDef;
 }
 
-void SetReikaLightDefense(){
-    
+void SetReikaLightDefense(long litDef){
+    Reika_Light_Defense = litDef;
 }
 
-void SetReikaDarkDefense(){
-    
+void SetReikaDarkDefense(long drkDef){
+    Reika_Dark_Defense = drkDef;
 }
 
-void SetReikaAttackSpeed(){
-    
+void SetReikaAttackSpeed(long attSpd){
+    Reika_Attack_Speed = attSpd;
 }
 
-void SetReikaCastSpeed(){
-    
+void SetReikaCastSpeed(long cstSpd){
+    Reika_Cast_Speed = cstSpd;
 }
 
-void SetReikaMovementSpeed(){
-    
+void SetReikaMovementSpeed(long mvmSpd){
+    Reika_Movement_Speed = mvmSpd;
 }
 
 // Getters
