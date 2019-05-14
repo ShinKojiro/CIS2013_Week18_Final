@@ -1,235 +1,236 @@
-#ifndef REIKA_CPP
-#define REIKA_CPP
+#ifndef CHARACTER_CPP
+#define CHARACTER_CPP
 
 #include <iostream>
 #include <string>
 #include <cstdlib>
+#include <math.h>
 
 using namespace std;
 
-class Reika{
+class Character{
 
 private:
 
-long Reika_Strength;
-long Reika_Agility;
-long Reika_Intelligence;
-long Reika_Vitality;
-long Reika_Max_HP;
-long Reika_HP;
-long Reika_Max_MP;
-long Reika_MP;
-long Reika_Concentration;
-long Reika_Boost;
-long Reika_Stamina;
-long Reika_Defense;
-long Reika_Perception;
-long Reika_Fire_Defense;
-long Reika_Water_Defense;
-long Reika_Ice_Defense;
-long Reika_Wind_Defense;
-long Reika_Earth_Defense;
-long Reika_Lightning_Defense;
-long Reika_Light_Defense;
-long Reika_Dark_Defense;
-long Reika_Attack_Speed;
-long Reika_Cast_Speed;
-long Reika_Movement_Speed;
+long long int Strength;
+long long int Agility;
+long long int Intelligence;
+long long int Vitality;
+long long int Max_HP;
+long long int HP;
+long long int Max_MP;
+long long int MP;
+long long int Concentration;
+long long int Boost;
+long long int Stamina;
+long long int Defense;
+long long int Perception;
+long long int Fire_Defense;
+long long int Water_Defense;
+long long int Ice_Defense;
+long long int Wind_Defense;
+long long int Earth_Defense;
+long long int Lightning_Defense;
+long long int Light_Defense;
+long long int Dark_Defense;
+long long int Attack_Speed;
+long long int Cast_Speed;
+long long int Movement_Speed;
 
 
 public:
 
-void SetReikaStrength(long str){
-    Reika_Strength = str;
+void SetStrength(long str){
+    Strength = str;
 }
 
-void SetReikaAgility(long agi){
-    Reika_Agility = agi;
+void SetAgility(long agi){
+    Agility = agi;
 }
 
-void SetReikaIntelligence(long intel){
-    Reika_Intelligence = intel;
+void SetIntelligence(long intel){
+    Intelligence = intel;
 }
 
-void SetReikaVitality(long vit){
-    Reika_Vitality = vit;
+void SetVitality(long vit){
+    Vitality = vit;
 }
 
-void SetReikaMaxHP(long mhp){
-    Reika_Max_HP = mhp;
+void SetMaxHP(long mhp){
+    Max_HP = mhp;
 }
 
-void SetReikaHP(long hp){
-    Reika_HP = hp;
+void SetHP(long hp){
+    HP = hp;
 }
 
-void SetReikaMaxMP(long mmp){
-    Reika_Max_MP = mmp;
+void SetMaxMP(long mmp){
+    Max_MP = mmp;
 }
 
-void SetReikaMP(long mp){
-    Reika_MP = mp;
+void SetMP(long mp){
+    MP = mp;
 }
 
-void SetReikaConcentration(long concen){
-    Reika_Concentration = concen;
+void SetConcentration(long concen){
+    Concentration = concen;
 }
 
-void SetReikaBoost(long boost){
-    Reika_Boost = boost;
+void SetBoost(long boost){
+    Boost = boost;
 }
 
-void SetReikaStamina(long sta){
-    Reika_Stamina = sta;
+void SetStamina(long sta){
+    Stamina = sta;
 }
 
-void SetReikaDefense(long def){
-    Reika_Defense = def;
+void SetDefense(long def){
+    Defense = def;
 }
 
-void SetReikaPerception(long per){
-    Reika_Perception = per;
+void SetPerception(long per){
+    Perception = per;
 }
 
-void SetReikaFireDefense(long fDef){
-    Reika_Fire_Defense = fDef;
+void SetFireDefense(long fDef){
+    Fire_Defense = fDef;
 }
 
-void SetReikaWaterDefense(long watDef){
-    Reika_Water_Defense = watDef;
+void SetWaterDefense(long watDef){
+    Water_Defense = watDef;
 }
 
-void SetReikaIceDefense(long iDef){
-    Reika_Ice_Defense = iDef;
+void SetIceDefense(long iDef){
+    Ice_Defense = iDef;
 }
 
-void SetReikaWindDefense(long windDef){
-    Reika_Wind_Defense = windDef;
+void SetWindDefense(long windDef){
+    Wind_Defense = windDef;
 }
 
-void SetReikaEarthDefense(long eDef){
-    Reika_Earth_Defense = eDef;
+void SetEarthDefense(long eDef){
+    Earth_Defense = eDef;
 }
 
-void SetReikaLightningDefense(long ltngDef){
-    Reika_Lightning_Defense = ltngDef;
+void SetLightningDefense(long ltngDef){
+    Lightning_Defense = ltngDef;
 }
 
-void SetReikaLightDefense(long litDef){
-    Reika_Light_Defense = litDef;
+void SetLightDefense(long litDef){
+    Light_Defense = litDef;
 }
 
-void SetReikaDarkDefense(long drkDef){
-    Reika_Dark_Defense = drkDef;
+void SetDarkDefense(long drkDef){
+    Dark_Defense = drkDef;
 }
 
-void SetReikaAttackSpeed(long attSpd){
-    Reika_Attack_Speed = attSpd;
+void SetAttackSpeed(long attSpd){
+    Attack_Speed = attSpd;
 }
 
-void SetReikaCastSpeed(long cstSpd){
-    Reika_Cast_Speed = cstSpd;
+void SetCastSpeed(long cstSpd){
+    Cast_Speed = cstSpd;
 }
 
-void SetReikaMovementSpeed(long mvmSpd){
-    Reika_Movement_Speed = mvmSpd;
+void SetMovementSpeed(long mvmSpd){
+    Movement_Speed = mvmSpd;
 }
 
 // Getters
 
-long GetReikaStrength(){
+long GetStrength(){
 
 }
 
-void SetReikaAgility(){
+void SetAgility(){
     
 }
 
-void SetReikaIntelligence(){
+void SetIntelligence(){
     
 }
 
-void SetReikaVitality(){
+void SetVitality(){
     
 }
 
-void SetReikaMaxHP(){
+void SetMaxHP(){
     
 }
 
-void SetReikaHP(){
+void SetHP(){
     
 }
 
-void SetReikaMaxMP(){
+void SetMaxMP(){
     
 }
 
-void SetReikaMP(){
+void SetMP(){
     
 }
 
-void SetReikaConcentration(){
+void SetConcentration(){
     
 }
 
-void SetReikaBoost(){
+void SetBoost(){
     
 }
 
-void SetReikaStamina(){
+void SetStamina(){
     
 }
 
-void SetReikaDefense(){
+void SetDefense(){
     
 }
 
-void SetReikaPerception(){
+void SetPerception(){
     
 }
 
-void SetReikaFireDefense(){
+void SetFireDefense(){
     
 }
 
-void SetReikaWaterDefense(){
+void SetWaterDefense(){
     
 }
 
-void SetReikaIceDefense(){
+void SetIceDefense(){
     
 }
 
-void SetReikaWindDefense(){
+void SetWindDefense(){
     
 }
 
-void SetReikaEarthDefense(){
+void SetEarthDefense(){
     
 }
 
-void SetReikaLightningDefense(){
+void SetLightningDefense(){
     
 }
 
-void SetReikaLightDefense(){
+void SetLightDefense(){
     
 }
 
-void SetReikaDarkDefense(){
+void SetDarkDefense(){
     
 }
 
-void SetReikaAttackSpeed(){
+void SetAttackSpeed(){
     
 }
 
-void SetReikaCastSpeed(){
+void SetCastSpeed(){
     
 }
 
-void SetReikaMovementSpeed(){
+void SetMovementSpeed(){
     
 }
 
