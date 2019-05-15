@@ -89,99 +89,99 @@ void SetGender(int g, string n){
     }
 }
 
-void SetStrength(long str){
+void SetStrength(long long int str){
     Strength = str;
 }
 
-void SetAgility(long agi){
+void SetAgility(long long int agi){
     Agility = agi;
 }
 
-void SetIntelligence(long intel){
+void SetIntelligence(long long int intel){
     Intelligence = intel;
 }
 
-void SetVitality(long vit){
+void SetVitality(long long int vit){
     Vitality = vit;
 }
 
-void SetMaxHP(long mhp){
+void SetMaxHP(long long int mhp){
     Max_HP = mhp;
 }
 
-void SetHP(long hp){
+void SetHP(long long int hp){
     HP = hp;
 }
 
-void SetMaxMP(long mmp){
+void SetMaxMP(long long int mmp){
     Max_MP = mmp;
 }
 
-void SetMP(long mp){
+void SetMP(long long int mp){
     MP = mp;
 }
 
-void SetConcentration(long concen){
+void SetConcentration(long long int concen){
     Concentration = concen;
 }
 
-void SetBoost(long boost){
+void SetBoost(long long int boost){
     Boost = boost;
 }
 
-void SetStamina(long sta){
+void SetStamina(long long int sta){
     Stamina = sta;
 }
 
-void SetDefense(long def){
+void SetDefense(long long int def){
     Defense = def;
 }
 
-void SetPerception(long per){
+void SetPerception(long long int per){
     Perception = per;
 }
 
-void SetFireDefense(long fDef){
+void SetFireDefense(long long int fDef){
     Fire_Defense = fDef;
 }
 
-void SetWaterDefense(long watDef){
+void SetWaterDefense(long long int watDef){
     Water_Defense = watDef;
 }
 
-void SetIceDefense(long iDef){
+void SetIceDefense(long long int iDef){
     Ice_Defense = iDef;
 }
 
-void SetWindDefense(long windDef){
+void SetWindDefense(long long int windDef){
     Wind_Defense = windDef;
 }
 
-void SetEarthDefense(long eDef){
+void SetEarthDefense(long long int eDef){
     Earth_Defense = eDef;
 }
 
-void SetLightningDefense(long ltngDef){
+void SetLightningDefense(long long int ltngDef){
     Lightning_Defense = ltngDef;
 }
 
-void SetLightDefense(long litDef){
+void SetLightDefense(long long int litDef){
     Light_Defense = litDef;
 }
 
-void SetDarkDefense(long drkDef){
+void SetDarkDefense(long long int drkDef){
     Dark_Defense = drkDef;
 }
 
-void SetAttackSpeed(long attSpd){
+void SetAttackSpeed(long long int attSpd){
     Attack_Speed = attSpd;
 }
 
-void SetCastSpeed(long cstSpd){
+void SetCastSpeed(long long int cstSpd){
     Cast_Speed = cstSpd;
 }
 
-void SetMovementSpeed(long mvmSpd){
+void SetMovementSpeed(long long int mvmSpd){
     Movement_Speed = mvmSpd;
 }
 
