@@ -12,8 +12,12 @@ class Character{
 
 private:
 
-string Char_Name;
+string First_Name;
+string Mid_Name;
+string Last_Name;
+string Nickname;
 int Gender_Val;
+string Gender_Name;
 bool Right_Handed;
 int Rage_Val;
 int Calm_Val;
@@ -49,6 +53,41 @@ long long int Movement_Speed;
 public:
 
 // Setters
+
+void SetFirstName(string n){
+    First_Name = n;
+}
+
+void SetMidName(string m){
+    Mid_Name = m;
+}
+
+void SetLastName(string l){
+    Last_Name = l;
+}
+
+void SetNickName(string n){
+    Nickname = n;
+}
+
+void SetGender(int g, string n){
+    Gender_Val = g;
+    Gender_Name = n;
+    switch (g)
+    {
+    case 0:
+        Gender_Name = "None";
+        break;
+    case 1:
+        Gender_Name = "Male";
+        break;
+    case 2:
+        Gender_Name = "Female";
+        break;
+    default:
+        break;
+    }
+}
 
 void SetStrength(long str){
     Strength = str;
