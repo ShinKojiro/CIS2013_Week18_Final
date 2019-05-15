@@ -12,6 +12,14 @@ class Character{
 
 private:
 
+string Char_Name;
+int Gender_Val;
+bool Right_Handed;
+int Rage_Val;
+int Calm_Val;
+int Sad_Val;
+int Happy_Val;
+
 long long int Strength;
 long long int Agility;
 long long int Intelligence;
