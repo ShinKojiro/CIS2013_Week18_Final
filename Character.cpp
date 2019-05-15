@@ -138,99 +138,99 @@ void SetMovementSpeed(long mvmSpd){
 
 // Getters
 
-long GetStrength(){
+long long int GetStrength(){
 
 }
 
-void SetAgility(){
+long long int SetAgility(){
     
 }
 
-void SetIntelligence(){
+long long int SetIntelligence(){
     
 }
 
-void SetVitality(){
+long long int SetVitality(){
     
 }
 
-void SetMaxHP(){
+long long int SetMaxHP(){
     
 }
 
-void SetHP(){
+long long int SetHP(){
     
 }
 
-void SetMaxMP(){
+long long int SetMaxMP(){
     
 }
 
-void SetMP(){
+long long int SetMP(){
     
 }
 
-void SetConcentration(){
+long long int SetConcentration(){
     
 }
 
-void SetBoost(){
+long long int SetBoost(){
     
 }
 
-void SetStamina(){
+long long int SetStamina(){
     
 }
 
-void SetDefense(){
+long long int SetDefense(){
     
 }
 
-void SetPerception(){
+long long int SetPerception(){
     
 }
 
-void SetFireDefense(){
+long long int SetFireDefense(){
     
 }
 
-void SetWaterDefense(){
+long long int SetWaterDefense(){
     
 }
 
-void SetIceDefense(){
+long long int SetIceDefense(){
     
 }
 
-void SetWindDefense(){
+long long int SetWindDefense(){
     
 }
 
-void SetEarthDefense(){
+long long int SetEarthDefense(){
     
 }
 
-void SetLightningDefense(){
+long long int SetLightningDefense(){
     
 }
 
-void SetLightDefense(){
+long long int SetLightDefense(){
     
 }
 
-void SetDarkDefense(){
+long long int SetDarkDefense(){
     
 }
 
-void SetAttackSpeed(){
+long long int SetAttackSpeed(){
     
 }
 
-void SetCastSpeed(){
+long long int SetCastSpeed(){
     
 }
 
-void SetMovementSpeed(){
+long long int SetMovementSpeed(){
     
 }
 
