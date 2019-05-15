@@ -40,6 +40,8 @@ long long int Movement_Speed;
 
 public:
 
+// Setters
+
 void SetStrength(long str){
     Strength = str;
 }
@@ -139,101 +141,100 @@ void SetMovementSpeed(long mvmSpd){
 // Getters
 
 long long int GetStrength(){
-
+    return Strength;
 }
 
 long long int SetAgility(){
-    
+    return Agility;
 }
 
 long long int SetIntelligence(){
-    
+    return Intelligence;
 }
 
 long long int SetVitality(){
-    
+    return Vitality;
 }
 
 long long int SetMaxHP(){
-    
+    return Max_HP;
 }
 
 long long int SetHP(){
-    
+    return HP;
 }
 
 long long int SetMaxMP(){
-    
+    return Max_MP;
 }
 
 long long int SetMP(){
-    
+    return MP;
 }
 
 long long int SetConcentration(){
-    
+    return Concentration;
 }
 
 long long int SetBoost(){
-    
+    return Boost;
 }
 
 long long int SetStamina(){
-    
+    return Stamina;
 }
 
 long long int SetDefense(){
-    
+    return Defense;
 }
 
 long long int SetPerception(){
-    
+    return Perception;
 }
 
 long long int SetFireDefense(){
-    
+    return Fire_Defense;
 }
 
 long long int SetWaterDefense(){
-    
+    return Water_Defense;
 }
 
 long long int SetIceDefense(){
-    
+    return Ice_Defense;
 }
 
 long long int SetWindDefense(){
-    
+    return Wind_Defense;
 }
 
 long long int SetEarthDefense(){
-    
+    return Earth_Defense;
 }
 
 long long int SetLightningDefense(){
-    
+    return Lightning_Defense;
 }
 
 long long int SetLightDefense(){
-    
+    return Light_Defense;
 }
 
 long long int SetDarkDefense(){
-    
+    return Dark_Defense;
 }
 
 long long int SetAttackSpeed(){
-    
+    return Attack_Speed;
 }
 
 long long int SetCastSpeed(){
-    
+    return Cast_Speed;
 }
 
 long long int SetMovementSpeed(){
-    
+    return Movement_Speed;
 }
-
 
 };
 
