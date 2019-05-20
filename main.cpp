@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <math.h>
 #include "Character.cpp"
-#include "Terumi.cpp"
+#include "Element.cpp"
 
 using namespace std;
 

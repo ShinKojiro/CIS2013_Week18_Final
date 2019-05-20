@@ -1,5 +1,5 @@
-#ifndef CLASS2_CPP
-#define CLASS2_CPP
+#ifndef ELEMENT_CPP
+#define ELEMENT_CPP
 
 #include <iostream>
 #include <string>
@@ -7,9 +7,11 @@
 
 using namespace std;
 
-class Class2{
+class Element{
 
 private:
+
+int type;
 
 public:
 
