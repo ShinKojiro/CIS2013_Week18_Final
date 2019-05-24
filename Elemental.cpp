@@ -1,5 +1,5 @@
-#ifndef ELEMENT_CPP
-#define ELEMENT_CPP
+#ifndef ELEMENTAL_CPP
+#define ELEMENTAL_CPP
 
 #include <iostream>
 #include <string>
@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Element{
+class Elemental{
 
 private:
 
